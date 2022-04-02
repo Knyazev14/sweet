@@ -1,0 +1,26 @@
+	<svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<rect class="profile-rect" x="0.5" y="0.5" width="37" height="37" rx="6.5" stroke="#F42758"/>
+		<circle class="profile-circle" cx="19.564" cy="13.105" r="4.5" fill="#F42758"/>
+		<path class="profile-path" fill-rule="evenodd" clip-rule="evenodd" d="M22.9356 18.605C22.4151 19.9596 21.1017 20.9211 19.5638 20.9211C18.0259 20.9211 16.7125 19.9596 16.192 18.605H22.9356ZM14.1076 18.624C12.0826 18.8212 10.5 20.5283 10.5 22.605V25.3952C10.5 27.6043 12.2909 29.3952 14.5 29.3952H24.6276C26.8367 29.3952 28.6276 27.6043 28.6276 25.3952V22.605C28.6276 20.5283 27.045 18.8212 25.0201 18.624C24.4287 21.089 22.2102 22.9211 19.5638 22.9211C16.9174 22.9211 14.699 21.089 14.1076 18.624Z" fill="#F42758"/>
+		<defs>
+			<style>
+				svg{
+					cursor: pointer;
+				}
+				svg:hover .profile-circle{
+					fill: white;
+				}
+				svg:hover .profile-path{
+					fill: white;
+				}
+				svg:hover .profile-rect{
+					fill:	#FD5E7A;
+					stroke: #FD5E7A;
+				}
+				svg:active .profile-rect{
+					fill:	#F42758;
+					stroke: #F42758
+				}
+			</style>
+		</defs>
+		</svg>

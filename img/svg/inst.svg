@@ -1,0 +1,47 @@
+<svg width="38" height="39" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<rect class="inst-rect1" x="0.5" y="0.5" width="37" height="36.5" rx="6.5" stroke="#F42758"/>
+		<rect class="inst-rect2" x="7" y="7" width="24" height="24" rx="6" fill="#F42758"/>
+		<circle class="inst-circle1" cx="19.0001" cy="18.9999" r="4.73913" stroke="white" stroke-width="2"/>
+		<circle class="inst-circle2" cx="26.091" cy="11.9091" r="1.63636" fill="white"/>
+		<defs>
+			<style>
+				svg{
+					cursor: pointer;
+				}
+				svg:hover .inst-rect1{
+					fill: #FD5E7A;
+					stroke: #FD5E7A;
+				}
+				svg:hover .inst-rect2{
+					fill: white;
+					
+				}
+				svg:hover .inst-circle1{
+					fill: white;
+					stroke: #FD5E7A;
+				}
+
+				svg:hover .inst-circle2{
+					fill: white;
+					stroke: #FD5E7A;
+				}
+				svg:active .inst-rect1{
+					fill: #F42758;
+					stroke: #F42758;
+				}
+				svg:active .inst-rect2{
+					fill: white;
+					
+				}
+				svg:active .inst-circle1{
+					fill: white;
+					stroke: #F42758;
+				}
+
+				svg:active .inst-circle2{
+					fill: white;
+					stroke: #F42758;
+				}
+			</style>
+		</defs>
+		</svg>
