@@ -184,6 +184,26 @@ body::-webkit-scrollbar-thumb {
   border-radius: 7px;
 }
 
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: rgba(255, 64, 110, 0.5);
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: rgba(255, 64, 110, 0.5);
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: rgba(255, 64, 110, 0.5);
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: rgba(255, 64, 110, 0.5);
+}
+
 .wrapper {
   min-height: 100%;
   overflow-x: hidden;
@@ -319,7 +339,7 @@ body::-webkit-scrollbar-thumb {
   color: #F42758;
 }
 
-.header__menu-link:hover {
+.header .hover:hover {
   background-color: #E1B3F6;
   color: #F42758;
 }
@@ -456,6 +476,10 @@ body::-webkit-scrollbar-thumb {
   background-color: transparent;
 }
 
+.header__phone {
+  display: none;
+}
+
 .header__inst {
   display: none;
 }
@@ -470,4 +494,91 @@ body::-webkit-scrollbar-thumb {
 
 .header__profile {
   margin-right: 15px;
+}
+
+@media (min-width: 991px) {
+  .header__menu-item:first-child {
+    display: none;
+  }
+
+  .header__search {
+    display: block;
+  }
+
+  .header__search-icon {
+    display: none;
+  }
+
+  .header__search-wrapper {
+    display: block;
+    position: static;
+    background-color: transparent;
+    height: auto;
+    width: auto;
+  }
+
+  .header__search-wrapper .container {
+    padding: 0;
+    margin: 0;
+  }
+
+  .header__search-box {
+    margin-top: 0;
+    width: 267px;
+    border: 1px solid rgba(255, 64, 110, 0.5);
+    border-radius: 5px;
+  }
+
+  .header__phone {
+    margin-right: 15px;
+    display: block;
+  }
+
+  .header__phone._active .header__phone-list {
+    display: block;
+  }
+
+  .header__phone-icon {
+    font-size: 18px;
+    line-height: 22px;
+    height: 40px;
+    border: 1px solid #FF406E;
+    padding: 0 22px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 262px;
+    border-radius: 5px;
+    position: relative;
+  }
+
+  .header__phone-icon svg {
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+  }
+
+  .header__phone-list {
+    position: absolute;
+    top: 70px;
+    width: 360px;
+    display: none;
+  }
+
+  .header__phone-list li {
+    border-top: 1px solid #E1B3F6;
+  }
+
+  .header__phone-link {
+    width: 100%;
+    padding: 12px 6px;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 18px;
+    color: black;
+    background-color: #fff;
+  }
 }

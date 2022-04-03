@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.min.css?_v=20220403145633">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220403173127">
 	<title>Главная</title>
 
 </head>
@@ -26,7 +26,7 @@
 				</button>
 				<ul class="header__menu-list">
 					<li class="header__menu-item">
-						<a class="header__menu-link" href="#">
+						<a class="header__menu-link hover" href="#">
 							<sapn>Адреса и телефон</sapn>
 							<img class="header__menu-link-image" src="img/svg/arrow.svg" alt="image">
 						</a>
@@ -38,7 +38,7 @@
 						</ul>
 					</li>
 					<li class="header__menu-item">
-						<a class="header__menu-link" href="#">
+						<a class="header__menu-link hover" href="#">
 							<sapn>Ингредиенты</sapn>
 							<img class="header__menu-link-image" src="img/svg/arrow.svg" alt="image">
 						</a>
@@ -61,7 +61,7 @@
 						</ul>
 					</li>
 					<li class="header__menu-item">
-						<a class="header__menu-link" href="#">
+						<a class="header__menu-link hover" href="#">
 							<sapn>Инвентарь</sapn>
 							<img class="header__menu-link-image" src="img/svg/arrow.svg" alt="image">
 						</a>
@@ -102,7 +102,7 @@
 						</ul>
 					</li>
 					<li class="header__menu-item">
-						<a class="header__menu-link" href="#">
+						<a class="header__menu-link hover" href="#">
 							<sapn>Декор</sapn>
 							<img class="header__menu-link-image" src="img/svg/arrow.svg" alt="image">
 						</a>
@@ -125,7 +125,7 @@
 						</ul>
 					</li>
 					<li class="header__menu-item">
-						<a class="header__menu-link" href="#">
+						<a class="header__menu-link hover" href="#">
 							<sapn>Кондитерская упаковка<br>и подложки</sapn>
 							<img class="header__menu-link-image" src="img/svg/arrow.svg" alt="image">
 						</a>
@@ -148,7 +148,7 @@
 						</ul>
 					</li>
 					<li class="header__menu-item">
-						<a class="header__menu-link" href="#">
+						<a class="header__menu-link hover" href="#">
 							<sapn>Праздник</sapn>
 							<img class="header__menu-link-image" src="img/svg/arrow.svg" alt="image">
 						</a>
@@ -171,7 +171,7 @@
 						</ul>
 					</li>
 					<li class="header__menu-item">
-						<a class="header__menu-link" href="#">
+						<a class="header__menu-link hover" href="#">
 							<sapn>Специальные<br>предложения</sapn>
 							<img class="header__menu-link-image" src="img/svg/arrow.svg" alt="image">
 						</a>
@@ -194,7 +194,7 @@
 						</ul>
 					</li>
 					<li class="header__menu-item">
-						<a class="header__menu-link" href="#">
+						<a class="header__menu-link hover" href="#">
 							<sapn>Посыпки</sapn>
 							<img class="header__menu-link-image" src="img/svg/arrow.svg" alt="image">
 						</a>
@@ -301,7 +301,7 @@
 				<div class="header__search-wrapper">
 					<div class="container">
 						<div class="header__search-box">
-							<input class="header__search-txt" type="text" maxlength="18">
+							<input class="header__search-txt" type="text" maxlength="18" placeholder="Поиск...">
 							<button class="header__search-btn"><img src="img/svg/search.svg" alt="image"></button>
 						</div>
 					</div>
@@ -397,8 +397,24 @@
 				</svg>
 			</a>
 
+			<div class="header__phone">
+				<button class="header__phone-icon">
+					<svg  width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M7 10.625C7.25714 10.7964 11.5 14.375 11.5 14.375L16 10.625" stroke="#F42758" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						<rect x="22.5" y="23" width="22" height="22" rx="3.5" transform="rotate(-180 22.5 23)" stroke="#F42758"/>
+						</svg>	
+					<span>Адреса и телефон</span>
+				</button>		
+				<ul class="header__phone-list">
+					<li><a class="header__phone-link" href="tel:+375(33)6865999">+375 (33) 68-65-999</a></li>
+					<li><a class="header__phone-link" href="#">ТЦ Капитал: г. Новополоцк, ул. Молодежная 166А, торговое место 47 </a></li>
+					<li><a class="header__phone-link" href="#">ТЦ Респект: г. Полоцк, ул. Ф.Скорины 45, торговое место 7с</a></li>
+				</ul>
+			</div>
+			
+			
 
-			<div class="header__phone"></div>
+
 
 			<a class="header__profile" href="#">
 				<svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -480,7 +496,7 @@
 		<footer></footer>
 		
 	</div>
-<script src="js/app.min.js?_v=20220403145633"></script>
+<script src="js/app.min.js?_v=20220403173127"></script>
 </body>
 
 </html>
