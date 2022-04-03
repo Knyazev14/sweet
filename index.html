@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.min.css?_v=20220403140410">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220403144028">
 	<title>Главная</title>
 
 </head>
@@ -301,7 +301,7 @@
 				<div class="header__search-wrapper">
 					<div class="container">
 						<div class="header__search-box">
-							<input class="header__search-txt" type="text">
+							<input class="header__search-txt" type="text" maxlength="18">
 							<button class="header__search-btn"><img src="img/svg/search.svg" alt="image"></button>
 						</div>
 					</div>
@@ -398,6 +398,77 @@
 			</a>
 
 
+			<div class="header__phone"></div>
+
+			<a class="header__profile" href="#">
+				<svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<rect class="profile-rect" x="0.5" y="0.5" width="37" height="37" rx="6.5" stroke="#F42758"/>
+					<circle class="profile-circle" cx="19.564" cy="13.105" r="4.5" fill="#F42758"/>
+					<path class="profile-path" fill-rule="evenodd" clip-rule="evenodd" d="M22.9356 18.605C22.4151 19.9596 21.1017 20.9211 19.5638 20.9211C18.0259 20.9211 16.7125 19.9596 16.192 18.605H22.9356ZM14.1076 18.624C12.0826 18.8212 10.5 20.5283 10.5 22.605V25.3952C10.5 27.6043 12.2909 29.3952 14.5 29.3952H24.6276C26.8367 29.3952 28.6276 27.6043 28.6276 25.3952V22.605C28.6276 20.5283 27.045 18.8212 25.0201 18.624C24.4287 21.089 22.2102 22.9211 19.5638 22.9211C16.9174 22.9211 14.699 21.089 14.1076 18.624Z" fill="#F42758"/>
+					<defs>
+						<style>
+							svg{
+								cursor: pointer;
+							}
+							svg:hover .profile-circle{
+								fill: white;
+							}
+							svg:hover .profile-path{
+								fill: white;
+							}
+							svg:hover .profile-rect{
+								fill:	#FD5E7A;
+								stroke: #FD5E7A;
+							}
+							svg:active .profile-rect{
+								fill:	#F42758;
+								stroke: #F42758
+							}
+						</style>
+					</defs>
+					</svg>
+			</a>
+			<a class="header__cart" href="#">
+				<svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<rect class="cart-rect1" x="0.5" y="0.5" width="37" height="37" rx="6.5" stroke="#F42758"/>
+					<g clip-path="url(#clip0_227_11135)" >
+					<path class="cart-path1" d="M16.1051 27.3332C16.5412 27.3332 16.8946 26.9601 16.8946 26.4998C16.8946 26.0396 16.5412 25.6665 16.1051 25.6665C15.6691 25.6665 15.3157 26.0396 15.3157 26.4998C15.3157 26.9601 15.6691 27.3332 16.1051 27.3332Z" fill="#F42758" stroke="#F42758" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					<path class="cart-path1" d="M24.7895 27.3334C25.2255 27.3334 25.5789 26.9603 25.5789 26.5001C25.5789 26.0398 25.2255 25.6667 24.7895 25.6667C24.3535 25.6667 24 26.0398 24 26.5001C24 26.9603 24.3535 27.3334 24.7895 27.3334Z" fill="#F42758" stroke="#F42758" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					<path class="cart-path2" d="M9.78955 9.83325H12.9474L15.0632 20.9916C15.1354 21.3752 15.3332 21.7199 15.6218 21.9652C15.9105 22.2104 16.2717 22.3407 16.6422 22.3333H24.3159C24.6864 22.3407 25.0476 22.2104 25.3362 21.9652C25.6249 21.7199 25.8226 21.3752 25.8948 20.9916L27.158 13.9999H13.7369" stroke="#F42758" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					<path class="cart-path3" d="M24.7529 13.8531L16.4076 14.1088C15.1277 14.1481 14.2101 15.3633 14.5237 16.604L15.5305 20.5877C15.7573 21.4851 16.5709 22.1073 17.4968 22.0917L23.6538 21.9881C24.5363 21.9733 25.3065 21.3816 25.5492 20.5321L26.7306 16.3963C27.1023 15.0952 26.1042 13.8117 24.7529 13.8531Z" fill="#F42758"/>
+					</g>
+					<defs>
+					<clipPath id="clip0_227_11135">
+					<rect width="20" height="20" fill="white" transform="translate(9 9)"/>
+					</clipPath>
+					<style>
+						svg{
+							cursor: pointer;
+						}
+						svg:hover .cart-path1{
+							stroke: white;
+							fill: white;
+						}
+						svg:hover .cart-path2{
+							stroke: white;
+						}
+						svg:hover .cart-path3{
+							fill: white;
+						}
+						svg:hover .cart-rect1{
+							fill: #FD5E7A;
+							stroke: #FD5E7A;
+						}
+						svg:active .cart-rect1{
+							fill: #F42758;
+							stroke: #F42758;
+						}
+					</style>
+					</defs>
+					</svg>
+			</a>
+
+
 		</div>
 	</div>
 </header>
@@ -409,7 +480,7 @@
 		<footer></footer>
 		
 	</div>
-<script src="js/app.min.js?_v=20220403140410"></script>
+<script src="js/app.min.js?_v=20220403144028"></script>
 </body>
 
 </html>

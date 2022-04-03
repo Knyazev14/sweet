@@ -298,7 +298,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .header__menu-item {
-  border-bottom: 1px solid #E1B3F6;
+  border-top: 1px solid #E1B3F6;
   background: #fff;
 }
 
@@ -427,7 +427,7 @@ body::-webkit-scrollbar-thumb {
 
 .header__search-wrapper {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 70px;
   left: 0;
   background-color: #F42758;
@@ -460,6 +460,14 @@ body::-webkit-scrollbar-thumb {
   display: none;
 }
 
+.header__logo {
+  margin: 0 auto;
+}
+
 .header__vk {
   display: none;
+}
+
+.header__profile {
+  margin-right: 15px;
 }
