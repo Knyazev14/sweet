@@ -229,6 +229,10 @@ body::-webkit-scrollbar-thumb {
           flex: 1 0 auto;
 }
 
+body._active {
+  overflow: hidden;
+}
+
 .header__body {
   height: 70px;
   display: -webkit-box;
@@ -701,7 +705,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .no-webp .main__banner-body::before{
-  background: url("../../img/bg-banner.png"); }
+  background: url("../img/bg-banner.png"); }
 
 .main__banner-body::before {
   content: "";
@@ -882,7 +886,6 @@ body::-webkit-scrollbar-thumb {
     top: 70px;
     width: 360px;
     display: none;
-    z-index: 2;
   }
 
   .header__phone-list li {
@@ -1035,4 +1038,4 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-.webp .main__banner-body::before{ background: url(../../img/bg-banner.webp); }
+.webp .main__banner-body::before{ background: url(../img/bg-banner.webp); }
