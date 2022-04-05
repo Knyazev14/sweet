@@ -691,6 +691,7 @@ body._active {
   background: #FFE2DC;
   position: relative;
   z-index: 0;
+  margin-bottom: 60px;
 }
 
 .main__banner-body {
@@ -886,6 +887,7 @@ body._active {
     top: 70px;
     width: 360px;
     display: none;
+    z-index: 4;
   }
 
   .header__phone-list li {
