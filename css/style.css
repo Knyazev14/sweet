@@ -172,6 +172,13 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
+.slider-title {
+  font-family: Comfortaa;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+}
+
 body::-webkit-scrollbar {
   width: 10px;
 }
@@ -747,6 +754,24 @@ body._active {
 .main__banner-body-image {
   width: 290px;
   position: relative;
+}
+
+.slider-title {
+  margin-bottom: 30px;
+}
+
+.slider {
+  border: 1px solid black;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FF406E;
 }
 
 @media (min-width: 600px) {
