@@ -481,7 +481,7 @@ body._active {
   background-color: #F42758;
   height: 100%;
   width: 100%;
-  z-index: 1;
+  z-index: 10;
 }
 
 .header__search-box {
@@ -767,6 +767,10 @@ body._active {
 .swiper-catalog {
   width: 100%;
   height: 100%;
+  margin: 0 -20px;
+  padding: 0 20px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .swiper-wrapper-catalog {
@@ -781,8 +785,8 @@ body._active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.08);
-          box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.08);
+          box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.08);
   border-radius: 15px;
   overflow: hidden;
 }
@@ -852,6 +856,20 @@ body._active {
 
 .swiper-button-next-catalog {
   display: none;
+}
+
+.swiper-button-prev::after {
+  content: url(../img/svg/left.svg);
+  position: absolute;
+  top: -40px;
+  left: -15px;
+}
+
+.swiper-button-next::after {
+  content: url(../img/svg/right.svg);
+  position: absolute;
+  top: -40px;
+  right: -15px;
 }
 
 .swiper-scrollbar-catalog {
