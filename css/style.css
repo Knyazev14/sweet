@@ -792,6 +792,7 @@ body._active {
   height: auto;
   max-width: 290px;
   max-height: 350px;
+  border-radius: 10px;
 }
 
 .why-flex__title {
