@@ -173,6 +173,7 @@ body {
 }
 
 .main__catalog-slider-title,
+.brands__title,
 .why-flex__title,
 .about__title {
   font-family: Comfortaa;
@@ -700,7 +701,7 @@ body._active {
   background: #FFE2DC;
   position: relative;
   z-index: 0;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
 }
 
 .main__banner-body {
@@ -760,7 +761,7 @@ body._active {
 
 .about {
   background: #F2D4FF;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .about__body {
@@ -805,6 +806,40 @@ body._active {
   padding: 15px 0 30px 0;
   font-size: 15px;
   line-height: 140%;
+}
+
+.brands {
+  margin-bottom: 90px;
+}
+
+.brands__title {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.brands__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.brands__item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.brands__imae {
+  width: 100%;
+  height: auto;
 }
 
 .main__catalog-slider {
@@ -939,6 +974,14 @@ body._active {
   top: -10px;
 }
 
+@media (min-width: 500px) {
+  .brands__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333%;
+            flex: 0 0 33.333%;
+  }
+}
+
 @media (min-width: 600px) {
   .main__banner-body {
     -webkit-box-orient: horizontal;
@@ -1021,6 +1064,12 @@ body._active {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+
+  .brands__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.6666667%;
+            flex: 0 0 16.6666667%;
   }
 }
 
@@ -1145,6 +1194,7 @@ body._active {
 
 @media (min-width: 992px) {
   .main__catalog-slider-title,
+  .brands__title,
   .why-flex__title,
   .about__title {
     font-size: 35px;
