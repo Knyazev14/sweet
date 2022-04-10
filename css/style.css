@@ -1801,6 +1801,12 @@ body._active {
   padding: 0 15px;
 }
 
+.container-header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .catalog__control {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2279,6 +2285,10 @@ body._active {
   .container-catalog {
     max-width: 900px;
   }
+
+  .container-header {
+    max-width: 900px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -2287,6 +2297,10 @@ body._active {
   }
 
   .container-catalog {
+    max-width: 600px;
+  }
+
+  .container-header {
     max-width: 600px;
   }
 
@@ -2312,6 +2326,10 @@ body._active {
   }
 
   .container-catalog {
+    max-width: 400px;
+  }
+
+  .container-header {
     max-width: 400px;
   }
 }
